@@ -1,3 +1,66 @@
 body {
-    background-color: red;
+   background-image: url(./images/background3.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.tip-section h3{
+    /* color:#e8da76; */
+    color:#ded16e;
+    font-family: 'Boogaloo', cursive;
+    text-align: center;
+
+}
+
+.logo{
+    width:10%;
+}
+.tip-section{
+    border:2px solid rgba(255, 255, 255, 0.922);
+    background: rgba(255, 255, 255, 0.922);
+    width:30%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height:80%;
+    /* border-radius: 10px; */
+    padding:2%;
+}
+
+.input-separator {
+    border-bottom: 2px solid #d1e3e8;
+    background-color:#d1e3e8;
+    margin-bottom: 20px;
+}
+
+.input-separator1{
+    border-bottom: 2px solid #d1e3e8;
+    background-color:#d1e3e8;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.input-separator2{
+    border-bottom: 2px solid #d1e3e8;
+    background-color:#d1e3e8;
+    margin-bottom: 20px;
+    margin-top: 1rem;
+}
+
+.tip-section input{
+    display: block;
+    margin: auto;
+}
+
+label{
+    font-family: 'Lato', sans-serif;
+    font-size: 0.7rem;
+}
+
+h4{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-style: italic;
 }
