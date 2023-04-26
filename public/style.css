@@ -49,3 +49,18 @@ h4{
     font-weight: 700;
     font-style: italic;
 }
+
+/* =============== MEDIA QUERIES ================ */
+
+@media only screen and (max-width: 480px){
+    .calculator{
+        width:95%;
+        height:70vh;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {  
+    .calculator{
+        width:95%;
+    }
+ }
