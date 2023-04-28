@@ -14,6 +14,10 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    height:80%;
+    border-radius: 10px;
+
     height:50vh;
     /* border-radius: 10px; */
     padding:2%;
@@ -50,6 +54,16 @@ h4{
     font-style: italic;
 }
 
+
+#calculateButton {
+    background-color: #ded16e;
+    border: #ded16e;
+}
+
+.mx-auto {
+    padding-bottom: 10px;
+}
+
 /* =============== MEDIA QUERIES ================ */
 
 @media only screen and (max-width: 480px){
@@ -64,3 +78,4 @@ h4{
         width:95%;
     }
  }
+
