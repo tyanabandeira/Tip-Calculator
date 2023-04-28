@@ -11,7 +11,6 @@ tipRangeInput.addEventListener("input", (e) => count.innerText = e.target.value)
 //Calculate the bill
 function calculateBill(){
 const billAmount = Number(billAmountInput.value)
-console.log(tipRangeInput.value)
 const tipPercentage = tipRangeInput.value / 100
 const tipAmount = billAmount * tipPercentage
 const totalAmount = billAmount + tipAmount 
