@@ -10,23 +10,62 @@
       rel="stylesheet"
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"/>
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Pinyon+Script&family=Rouge+Script&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Pinyon+Script&family=Rouge+Script&display=swap"
+      rel="stylesheet"/>
+    
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap"
+      rel="stylesheet" />
+   
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap"
+      rel="stylesheet"  />
+  
     <title>Tip Calculator</title>
   </head>
   <body>
+
     <section class="tip-section">
       <img class="logo" src="./images/logo.jpg.png">
+
+    <section>
+   
+    <section class="calculator">
+
+    <section class="title">
+
       <h3>TIP CALCULATOR</h3>
+      </section>
+
+    <section class="bill-amount">
+      <!-- <input placeholder="Bill amount" /> -->
       <label for="billAmount" class="form-label">ENTER BILL AMOUNT</label>
       <div class="input-group mb-3">
         <span class="input-group-text">$</span>
+
         <input type="number" id="billAmount" for="billAmount" class="form-control" aria-label="Dollar amount (with dot and two decimal places)" placeholder="0.00"/>
+
+        <span class="input-group-text">0.00</span>
+        <input
+          type="number"
+          for="billAmount"
+          class="form-control"
+          aria-label="Dollar amount (with dot and two decimal places)"
+        />
+
       </div>
-      <div class="input-separator"></div>
+    </section>
+
+    <section class="tip-amount">
+      <label for="temp">Tip:</label><br />
+      <input type="range" id="tip" name="temp" min="0" max="30" />
+      <span class="current-number"></span>
+    </section>
+
 
       <section>
         <label for="customRange3" class="form-label">TIP</label>
@@ -36,13 +75,32 @@
 
         <div class="input-separator"></div>
 
+
+    <section class="submit-button">
+
       <div class="d-grid gap-2 col-6 mx-auto">
         <button class="btn btn-primary" id ="calculateButton" type="button">CALCULATE BILL</button>
       </div>
 
+
       <div class="input-separator"></div>
       <h4 class="totalBill">Total:</h4>
+
     </section>
+
+    <section class="total">
+      <h4>Total:</h4>
+
+    </section>
+
+
+
+
+</section>
+
+
+</body>
+    <script rel="text/javascript" src="main.js"></script>
   </body>
 
   <script src="main.js"></script>

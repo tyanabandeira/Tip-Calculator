@@ -2,20 +2,10 @@ body {
    background-image: url(./images/background3.jpg);
    background-size: cover;
    background-repeat: no-repeat;
+   height:100vh;
 }
 
-.tip-section h3{
-    /* color:#e8da76; */
-    color:#ded16e;
-    font-family: 'Boogaloo', cursive;
-    text-align: center;
-
-}
-
-.logo{
-    width:10%;
-}
-.tip-section{
+.calculator{
     border:2px solid rgba(255, 255, 255, 0.922);
     background: rgba(255, 255, 255, 0.922);
     width:30%;
@@ -24,29 +14,28 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
     height:80%;
     border-radius: 10px;
+
+    height:50vh;
+    /* border-radius: 10px; */
     padding:2%;
 }
 
-.input-separator {
-    border-bottom: 2px solid #d1e3e8;
-    background-color:#d1e3e8;
-    margin-bottom: 20px;
+.title h3{
+    /* color:#e8da76; */
+    color:#ded16e;
+    font-family: 'Boogaloo', cursive;
+    text-align: center;
 }
 
-.input-separator1{
-    border-bottom: 2px solid #d1e3e8;
-    background-color:#d1e3e8;
-    margin-bottom: 20px;
-    margin-top: 20px;
+.btn-primary{
+    margin-top: 22px;
 }
 
-.input-separator2{
-    border-bottom: 2px solid #d1e3e8;
-    background-color:#d1e3e8;
-    margin-bottom: 20px;
-    margin-top: 1rem;
+.total{
+    margin-top: 22px;
 }
 
 .tip-section input{
@@ -65,6 +54,7 @@ h4{
     font-style: italic;
 }
 
+
 #calculateButton {
     background-color: #ded16e;
     border: #ded16e;
@@ -73,3 +63,19 @@ h4{
 .mx-auto {
     padding-bottom: 10px;
 }
+
+/* =============== MEDIA QUERIES ================ */
+
+@media only screen and (max-width: 480px){
+    .calculator{
+        width:95%;
+        height:70vh;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {  
+    .calculator{
+        width:95%;
+    }
+ }
+
